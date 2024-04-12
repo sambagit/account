@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T00:48:03.477Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="ya_ZMKvzcGtUuMPJHAMP" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T01:02:56.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="FhQF7Xb0URB2XCVfbeyp" version="21.5.1" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1626" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -372,6 +372,36 @@
             <mxPoint x="153.94675925925927" y="700.2777777777778" as="sourcePoint" />
             <mxPoint x="153.94675925925927" y="760.2777777777778" as="targetPoint" />
             <mxPoint x="-4.236111111111107" y="-0.2777777777777883" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-89" value="GroupAddUsersPresenter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="135" y="960" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-90" value="«client»&lt;br&gt;&lt;b&gt;um-web\usr-mgmt-admin-client\usr-mgmt-admin-client-client&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="135" y="890" width="535" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-91" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-90">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-93" value=":GroupRestService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="960" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-94" value="«/presenter»" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="135" y="930" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-95" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-94">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-96" value="&amp;laquo;Annotation&amp;raquo;&lt;br/&gt;&lt;b&gt;Component&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1020" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-97" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-96">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
