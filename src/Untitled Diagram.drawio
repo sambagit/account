@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T02:29:51.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="2_pVmlZCEwPjLPO8hAh6" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T02:44:55.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="5c24t5YLYxxqfcKRn8I2" version="21.5.1" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="1626" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -374,9 +374,6 @@
             <mxPoint x="-4.236111111111107" y="-0.2777777777777883" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YpBgbr0rhlLmWAA7XQM-89" value="GroupAddUsersPresenter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="135" y="980" width="160" height="300" as="geometry" />
-        </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-90" value="«client»&lt;br&gt;&lt;b&gt;um-web\usr-mgmt-admin-client\usr-mgmt-admin-client-client&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="135" y="890" width="565" height="40" as="geometry" />
         </mxCell>
@@ -384,9 +381,6 @@
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="_YpBgbr0rhlLmWAA7XQM-93" value=":GroupRestService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="549.78" y="980" width="140.22" height="300" as="geometry" />
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-101" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="_YpBgbr0rhlLmWAA7XQM-93">
           <mxGeometry relative="1" as="geometry">
@@ -402,22 +396,6 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_YpBgbr0rhlLmWAA7XQM-112" value=":GroupResourceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="770" y="980" width="132" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="_YpBgbr0rhlLmWAA7XQM-131" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-112">
-          <mxGeometry x="62" y="220" width="10" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="_YpBgbr0rhlLmWAA7XQM-132" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;canBindUsersToGroups(&lt;span style=&quot;color: #c586c0;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;BindingUsersBean&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;userIdtoBind&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;groupId&lt;/span&gt;));&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="_YpBgbr0rhlLmWAA7XQM-112">
-          <mxGeometry x="0.0127" relative="1" as="geometry">
-            <mxPoint x="62" y="200" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="92" y="230" />
-            </Array>
-            <mxPoint x="73" y="230" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-113" value="«client»&lt;br&gt;&lt;b&gt;um-web\usr-mgmt-admin-client\usr-mgmt-admin-client-ws&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="720" y="890" width="380" height="40" as="geometry" />
         </mxCell>
@@ -425,15 +403,6 @@
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="_YpBgbr0rhlLmWAA7XQM-115" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;\ws\resources\&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="770" y="930" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_YpBgbr0rhlLmWAA7XQM-116" value="\&lt;span style=&quot;font-weight: normal;&quot;&gt;shared&lt;/span&gt;\&lt;span style=&quot;font-weight: 400;&quot;&gt;resource_service&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="550" y="930" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_YpBgbr0rhlLmWAA7XQM-117" value="\&lt;span style=&quot;font-weight: normal;&quot;&gt;presenter&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="135" y="930" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-118" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;@POST&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&amp;nbsp; @Path(WebRestAPI.CAN_BIND_AND_UNBIND_USERS_TO_GROUP)&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0005" width="60" relative="1" as="geometry">
@@ -449,7 +418,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-128" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="940" y="1330" width="370" height="210" as="geometry" />
+          <mxGeometry x="120" y="1350" width="370" height="210" as="geometry" />
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-106" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;«client»&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-weight: 400;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;um-web\usr-mgmt-admin-client\usr-mgmt-admin-client-shared&lt;br&gt;&lt;/b&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-128">
           <mxGeometry width="370" height="210" as="geometry" />
@@ -465,6 +434,72 @@
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-123" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;/share/model&lt;span style=&quot;color: #4ec9b0;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;BindingUsersBean&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-128">
           <mxGeometry x="140" y="150" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-135" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1230" y="1450" width="320" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-133" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;«serveur»&lt;/span&gt;&lt;br&gt;usr_mgmt\usr_mgmt-lib\usr_mgmt-lib_new" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-135">
+          <mxGeometry width="320" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-134" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#cccccc&quot;&gt;\lib\v2\bean\conflict\&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Conflict&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-135">
+          <mxGeometry y="20" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-138" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1450" y="930" width="130" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-136" value=":GroupMgtBusiness" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-138">
+          <mxGeometry y="74.28571428571429" width="130" height="445.7142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-137" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;lib\v2\business&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-138">
+          <mxGeometry width="100" height="74.28571428571429" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-139" value="«serveur»&lt;br&gt;&lt;b&gt;usr_mgmt\usr_mgmt-lib\usr_mgmt-lib_new&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="885" width="350" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-140" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-139">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-141" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="770" y="930" width="132" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-112" value=":GroupResourceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-141">
+          <mxGeometry y="50" width="132" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-131" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-112">
+          <mxGeometry x="62" y="220" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-132" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;canBindUsersToGroups(&lt;span style=&quot;color: #c586c0;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;BindingUsersBean&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;userIdtoBind&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;groupId&lt;/span&gt;));&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="_YpBgbr0rhlLmWAA7XQM-112">
+          <mxGeometry x="0.0127" relative="1" as="geometry">
+            <mxPoint x="62" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="92" y="230" />
+            </Array>
+            <mxPoint x="73" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-115" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;\ws\resources\&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-141">
+          <mxGeometry width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-142" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="549.78" y="930" width="140.22000000000003" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-93" value=":GroupRestService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-142">
+          <mxGeometry y="50" width="140.22" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-116" value="\&lt;span style=&quot;font-weight: normal;&quot;&gt;shared&lt;/span&gt;\&lt;span style=&quot;font-weight: 400;&quot;&gt;resource_service&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-142">
+          <mxGeometry x="0.22000000000002728" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-143" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="135" y="930" width="160" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-89" value="GroupAddUsersPresenter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-143">
+          <mxGeometry y="50" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_YpBgbr0rhlLmWAA7XQM-117" value="\&lt;span style=&quot;font-weight: normal;&quot;&gt;presenter&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-143">
+          <mxGeometry width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
