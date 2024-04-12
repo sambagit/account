@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T03:12:53.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="FjK2DuiGCQAigFcTIlLE" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T03:13:29.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="ARXpqjTIowfO0n8OL3zI" version="21.5.1" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="1626" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -405,7 +405,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-128" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="110" y="1740" width="370" height="210" as="geometry" />
+          <mxGeometry x="149.78" y="1570" width="370" height="210" as="geometry" />
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-106" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;«client»&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-weight: 400;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;um-web\usr-mgmt-admin-client\usr-mgmt-admin-client-shared&lt;br&gt;&lt;/b&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-128">
           <mxGeometry width="370" height="210" as="geometry" />
@@ -423,7 +423,7 @@
           <mxGeometry x="140" y="150" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-135" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="549.78" y="1750" width="320" height="210" as="geometry" />
+          <mxGeometry x="1280" y="1480" width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="_YpBgbr0rhlLmWAA7XQM-133" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;«serveur»&lt;/span&gt;&lt;br&gt;usr_mgmt\usr_mgmt-lib\usr_mgmt-lib_new" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="_YpBgbr0rhlLmWAA7XQM-135">
           <mxGeometry width="320" height="210" as="geometry" />
